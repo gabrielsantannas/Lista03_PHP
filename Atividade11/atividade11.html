@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora simples com operações básicas</title>
+</head>
+<body>
+    <h1>Calculadora simples com operações básicas</h1>
+    <form action="atividade11.php" method="post">
+        <label for="num1">Informe um número:</label>
+        <input type="number" name="num1" id="num1" required>
+        <br>
+
+        <label for="num2">Informe outro número:</label>
+        <input type="number" name="num2" id="num2" required>
+        <br>
+
+        Informe a operação:
+        <select name="Operação"> 
+        <option value="+"> Soma </option>
+        <option value="-"> Substração </option>
+        <option value="*"> Multiplicação </option>
+        <option value="/"> Divisão </option>
+        </select>
+        <br>
+
+        <button type="submit">Calcular</button>
+    </form>
+</body>
+</html>
