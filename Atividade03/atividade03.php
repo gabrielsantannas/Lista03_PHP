@@ -14,3 +14,4 @@ if ($media >= 7) {
 } else {
     echo "<br>Você está reprovado";
 }
+?>
