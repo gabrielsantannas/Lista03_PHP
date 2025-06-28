@@ -8,7 +8,9 @@ if ($idade >= 0 && $idade <= 12) {
     echo "Pela sua idade, você é classificado como: adolescente";
 } elseif ($idade >= 18 && $idade <= 59) {
     echo "Pela sua idade, você é classificado como: adulto";
-} else {
+} elseif ($idade >= 60) {
     echo "Pela sua idade, você é classificado como: idoso";
+} else {
+    echo "Idade inválida";
 }
 ?>
