@@ -5,7 +5,7 @@ $comissao;
 
 if ($vrvenda <= 1000) {
     $comissao =  ($vrvenda * 5 /100);
-} elseif ($comissao <= 5000) {
+} elseif ($vrvenda <= 5000) {
     $comissao = ($vrvenda * 10 /100);
 } else {
     $comissao = ($vrvenda * 15 /100);
